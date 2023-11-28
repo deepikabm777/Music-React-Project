@@ -1,0 +1,32 @@
+[
+    {
+      "title": "Kannada Mix",
+      "description": "Description for Song 1",
+      "img": "/img/dps.jpeg"
+    },
+    {
+      "title": "This is BTS",
+      "description": "Description for Song 2",
+      "img": "/img/bts.jpg"
+    },
+    {
+        "title": "This is BLACKPINK",
+        "description":"Description for Song 3",
+        "img":"/img/black.jpg"
+    },
+    {
+        "title": "Hindi songs",
+        "description":"Description for Song 4",
+        "img":"/img/ne.jpeg"
+    },
+    {
+        "title": "ONE DIRECTION",
+        "description":"Description for Song 5",
+        "img":"/img/one.jpeg"
+    },{
+        "title": "SUPER HIT-MUSIC",
+        "description":"Description for Song 6",
+        "img":"/img/image6.png"
+    }
+  ]
+  

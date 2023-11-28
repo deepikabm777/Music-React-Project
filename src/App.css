@@ -1,0 +1,118 @@
+
+.App {
+  display: flex;
+  background-color: #d3c6c6;
+
+  font-family: Arial, sans-serif;
+}
+.home{
+  background-color:antiquewhite;
+  background-image: url("../public/img/ig.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.Sidebar {
+  display: flex;
+
+  color: #fff;
+  box-shadow: 2px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+.HeaderBar {
+  color: #725959;
+  text-align: center;
+  font-size: 24px;
+}
+
+
+.SidebarList {
+  list-style-type: none;
+  padding: 0%;
+  display: flex;
+  background-color: none;
+}
+
+.SidebarList li {
+  margin-bottom: 10px;
+}
+
+.SidebarList a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+}
+
+.SidebarList a:hover {
+  text-decoration: underline;
+}
+
+
+.centered-content {
+  flex: 1;
+  padding: 20px;
+}
+.HomeS{
+  padding-left: 70px;
+  padding-right:70px;
+  padding-top: 0px;
+  padding-bottom: 10px;
+}
+.TodoS{
+  padding-left: 70px;
+  padding-right:70px;
+  padding-top: 0px;
+  padding-bottom: 10px;
+}
+
+.SearchS{
+  padding-left: 70px;
+  padding-right:70px;
+  padding-top: 0px;
+  padding-bottom: 10px;
+}
+
+.LoginS{
+  padding-left: 70px;
+  padding-right:70px;
+  padding-top: 0px;
+  padding-bottom: 10px;
+}
+.LoginS{
+  height: 10px;
+  width: 20px;
+}
+.InputLoginS{
+  height: 10px;
+  width: 10px;
+}
+
+.LoginUser{
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+/* Define the animation */
+@keyframes fadeIn {
+  from {
+    opacity: 1;
+    transform: translateX(-300px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+
+.card-animation {
+  animation-name: fadeIn;
+  animation-duration: 5s;
+  animation-timing-function: ease;
+  animation-delay:0s ;
+  animation-iteration-count: 1;
+  animation-direction:normal;
+  animation-fill-mode:  none;
+  /*animation: fadeIn 1s ease-in 1s 1 normal both;*/
+}

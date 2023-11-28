@@ -1,0 +1,28 @@
+.my-custom-footer {
+    background-color: #2daae0;
+    color: rgb(33, 52, 57);
+    padding: 20px;
+  }
+  
+  .social-icons {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+.footer-content{
+  display: flex;
+  flex-direction: row;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.my-custom-footer{
+  flex:2;
+}
+.left-section{
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+  
